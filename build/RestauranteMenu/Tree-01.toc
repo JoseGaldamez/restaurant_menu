@@ -1,0 +1,7 @@
+('F:\\Developer\\Universidad\\ComputacionNube\\Kivy\\restaurant_menu\\env\\share\\glew\\bin',
+ None,
+ [],
+ 'DATA',
+ [('glew32.dll',
+   'F:\\Developer\\Universidad\\ComputacionNube\\Kivy\\restaurant_menu\\env\\share\\glew\\bin\\glew32.dll',
+   'DATA')])

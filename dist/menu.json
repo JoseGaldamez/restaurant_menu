@@ -1,0 +1,51 @@
+{
+    "categories": [
+        {
+            "name": "Bebidas",
+            "products": [
+                {
+                    "name": "Coca Cola",
+                    "price": 30.0
+                },
+                {
+                    "name": "Jugo de Naranja",
+                    "price": 45.0
+                },
+                {
+                    "name": "Cerveza Nacional",
+                    "price": 50.0
+                }
+            ]
+        },
+        {
+            "name": "Platos Fuertes",
+            "products": [
+                {
+                    "name": "Pollo con Tajadas",
+                    "price": 180.0
+                },
+                {
+                    "name": "Carne Asada",
+                    "price": 220.0
+                },
+                {
+                    "name": "Pescado Frito",
+                    "price": 250.0
+                }
+            ]
+        },
+        {
+            "name": "Postres",
+            "products": [
+                {
+                    "name": "Flan de Coco",
+                    "price": 60.0
+                },
+                {
+                    "name": "Tres Leches",
+                    "price": 80.0
+                }
+            ]
+        }
+    ]
+}
