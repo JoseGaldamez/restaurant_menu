@@ -27,11 +27,11 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller MiAppKivy.spec
+          pyinstaller RestauranteMenu.spec
 
       - name: Zip the Build
         run: |
-          powershell Compress-Archive -Path dist\MiAppKivy\* -DestinationPath MiAppKivy.zip
+          powershell Compress-Archive -Path dist\RestauranteMenu\* -DestinationPath RestauranteMenu.zip
 
       # CAMBIO 2: Estrategia de "Rolling Release"
       # Esto actualizará siempre el mismo Release con el tag "nightly"
@@ -40,7 +40,7 @@ jobs:
         with:
           name: "Última Versión (Desarrollo)" # Título fijo
           tag_name: nightly # Tag fijo que se sobrescribirá
-          files: MiAppKivy.zip
+          files: RestauranteMenu.zip
           prerelease: true # Lo marca como "Pre-lanzamiento"
           overwrite: true # Importante: reemplaza el archivo anterior
         env:
